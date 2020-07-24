@@ -1,0 +1,61 @@
+Classes: 0 1 2 3
+
+Digits:
+    - Primal:
+        - OVA:  0.986 (ACC) (learning rate: 0.1)
+                0,05 s
+        - OVO:  0.993 (ACC) (learning rate: 0.1)
+                0,02 s
+        - ECOC: 0.986 (ACC) (learning rate: 0.01)
+                0.1 s
+    - Dual:
+        - OVA:  0.986 (ACC)
+                38.2 s
+        - OVO:  0.993 (ACC)
+                5.2 s
+        - ECOC: 0.972 (ACC)
+                67.0 s
+    - Kernel RBF:
+        - OVA:  0.965 (ACC)
+                45.1 s
+        - OVO:  0.993 (ACC)
+                17.3 s
+        - ECOC: 0.979 (ACC)
+                71.9 s
+    - Polinomial (2º grau):
+        - OVA:  1 (ACC)
+                20.3 s
+        - OVO:  0.993 (ACC)
+                6.3 s
+        - ECOC: 1 (ACC)
+                35.2 s
+
+Minist:
+    - Primal:
+        - OVA:  0.912 (ACC)
+                0.2 s
+        - OVO:  0.968 (ACC)
+                0.06 s
+        - ECOC: 0.931 (ACC)
+                0.6 s
+    - Dual:
+        - OVA:  0.912 (ACC)
+                156.8 s
+        - OVO:  0.968 (ACC)
+                18.4 s
+        - ECOC: 0.937 (ACC)
+                285.6 s
+    - Kernel RBF:
+        - OVA:  0.943 (ACC)
+                83.5 s
+        - OVO:  0.937 (ACC)
+                30.3 s
+        - ECOC: 0.956 (ACC)
+                126.6 s
+    - Polinomial (2º grau):
+        - OVA:  0.962 (ACC)
+                65.1 s
+        - OVO:  0.931 (ACC)
+                12.2 s
+        - ECOC: 0.968 (ACC)
+                76.1 s
